@@ -49,6 +49,7 @@ public class MainClass
         {
             for (int j = 0; j < x; j++)
             {
+                //for nice displaying set the different indents for different number of ordinals
                 if (matrix[i][j] < 10)
                     System.out.print("[ " + matrix[i][j] + " ]");
                 else if (matrix[i][j] > 9 && matrix[i][j] < 100)
